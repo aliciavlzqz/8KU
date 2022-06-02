@@ -5,3 +5,13 @@
 // Return true if the array contains the value, false if not.
 
 const check = (a,x) => a.includes(x);
+
+
+
+
+//Additional Solution//
+
+
+function check(a,x){
+    return a.includes(x);
+  };
