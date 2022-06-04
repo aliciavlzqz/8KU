@@ -10,3 +10,7 @@ function boolToWord( bool ){
       return 'No';
     }
   }
+
+
+
+  let boolToWord = bool => bool ? 'Yes' : 'No';
