@@ -3,3 +3,12 @@
 // As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
 
 // For example(Input --> Output):
+
+
+function monkeyCount(n) {
+    var monkeys = [];
+    for(var i=1; i<n+1; i++){
+      monkeys.push(i);
+    }
+    return monkeys;
+   }
