@@ -12,3 +12,11 @@ function monkeyCount(n) {
     }
     return monkeys;
    }
+
+
+
+   //Alternate solution
+
+   function monkeyCount(n) {
+    return Array(n).fill().map((el, i) => i + 1)
+  }
