@@ -17,3 +17,13 @@ function firstNonConsecutive (arr) {
     }
     return null;
 }
+
+
+
+//Alternate solution//
+
+
+function firstNonConsecutive (arr) {
+    let num = arr.find((x,i)=>x!==i+arr[0])
+    return num ?? null
+   }
