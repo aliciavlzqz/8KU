@@ -9,3 +9,10 @@ function digitize(n) {
   //Number converts a value into a number
   return String(n).split('').reverse().map(Number)
 }
+
+
+function digitize(n) {
+  return n.toString().split("").reverse().map(function(i){
+    return parseInt(i);
+  });
+}
