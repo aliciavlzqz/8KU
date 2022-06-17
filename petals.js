@@ -14,5 +14,7 @@
 
 function howMuchILoveYou(nbPetals) {
     // your code
-  
+    var petalSaying = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+    var index = (nbPetals - 1) % petalSaying.length;
+    return petalSaying[index];
 }
