@@ -6,7 +6,7 @@
 divisibleBy = (numbers, divisor) => numbers.filter(x => x % divisor == 0)
 
 
-//alternate solution
+//alternate solution for 8ku challenge
 function divisibleBy(numbers, divisor) {
 	var newArr = [];
 	for (let i = 0; i < numbers.length; i++) {
@@ -16,3 +16,4 @@ function divisibleBy(numbers, divisor) {
 	}
 return newArr;
 }
+///
