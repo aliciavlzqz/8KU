@@ -4,3 +4,15 @@
 // Example(Input1, Input2 --> Output)
 
 divisibleBy = (numbers, divisor) => numbers.filter(x => x % divisor == 0)
+
+
+//alternate solution
+function divisibleBy(numbers, divisor) {
+	var newArr = [];
+	for (let i = 0; i < numbers.length; i++) {
+		if (numbers[i] % divisor === 0) {
+			newArr.push(numbers[i]);
+		} 
+	}
+return newArr;
+}
